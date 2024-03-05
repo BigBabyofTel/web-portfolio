@@ -47,7 +47,7 @@ function App() {
         </div>
         <div className=" border flex justify-center flex-col">
           <h2 className="text-5xl p-5 m-10 flex justify-center">
-            Programming Languages
+            Skills
           </h2>
           <section className="flex flex-col mx-auto text-center leading-loose">
             <Carousel
