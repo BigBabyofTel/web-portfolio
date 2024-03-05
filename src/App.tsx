@@ -1,33 +1,33 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
     <>
+    <header>
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+        <img src="./src/assets/reddit.png" alt="reddit avatar" />
+      <h1 className='text-center '>T. Augustus Baker</h1>
+      <h2>Aspiring Web Dev</h2>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+    </header>
+      <div>
+          <h2>About Me</h2>
+          <p>
+            I’ve spent a year studying Front-End Web Development. Learning the
+            basics and applying them to understand core concepts, I hope to be
+            able to offer my services for individuals and businesses alike;
+            Moreover, perpetually, all aspects of my life involve learning and
+            growing.
+          </p>
+          <p>
+            For almost a decade, I have been living in Cairo teaching in the
+            British Primary School system. I have worked at 4 schools during my
+            time and gained the skills of an effective teacher. Problem solving,
+            collaboration, and Communication are some of the critical skills
+            that I have cultivated during my near decade as an Educator.
+          </p>
+        </div>
     </>
   )
 }
