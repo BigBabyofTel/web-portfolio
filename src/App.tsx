@@ -17,7 +17,6 @@ import discord from "./assets/discord-l.svg";
 import reddit from "./assets/reddit-l.svg";
 import { ThemeProvider } from './components/ThemeProvider';
 import { ModeToggle } from './components/ModeToggle';
-import { Children } from 'react';
 
 function App() {
  
