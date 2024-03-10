@@ -11,7 +11,6 @@ import linkedin from "./assets/linkedin-l.svg";
 import discord from "./assets/discord-l.svg";
 import reddit from "./assets/reddit-l.svg";
 import avatar from "./assets/avatar.svg";
-import moon from "./assets/moon.svg";
 import sun from "./assets/sun.svg";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { ModeToggle } from "./components/ModeToggle";
@@ -21,17 +20,17 @@ function App() {
     <ThemeProvider>
       <ModeToggle />
       <header>
-        <div className="border">
-          <img src={sun} className="w-1/4 animate-orbit" />
-          <img src={moon} className="w-1/6" />
+        <div>
+          
         </div>
-        <div className=" p-5 border border-blue-500 m-10 flex lg:justify-around lg:items-center flex-col">
+        <div className=" p-5 m-10 flex lg:justify-around lg:items-center flex-col">
           <div className="text-center mb-8">
+          <img src={sun} className="w-1/3 -z-10 animate-orbit" />
             <h1 className="text-5xl lg:text-7xl">T. Augustus Baker</h1>
             <h2 className="text-3xl lg:text-5xl">Aspiring Web Dev</h2>
           </div>
           <section className="">
-            <img src={avatar} alt="reddit avatar" className="w-1/8 mx-auto" />
+            <img src={avatar} alt="reddit avatar" className="w-1/6 mx-auto" />
           </section>
         </div>
       </header>
