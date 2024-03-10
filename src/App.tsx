@@ -3,7 +3,7 @@ import {
   CarouselContent,
   CarouselItem,
 } from "@/components/ui/carousel";
-import { Card, CardContent, CardHeader, CardTitle } from "./components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Autoplay from "embla-carousel-autoplay";
 import github from "./assets/github-l.svg";
 import outlook from "./assets/outlook.svg";
@@ -11,6 +11,8 @@ import linkedin from "./assets/linkedin-l.svg";
 import discord from "./assets/discord-l.svg";
 import reddit from "./assets/reddit-l.svg";
 import avatar from "./assets/avatar.svg";
+import moon from "./assets/moon.svg";
+import sun from "./assets/sun.svg";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { ModeToggle } from "./components/ModeToggle";
 
@@ -19,6 +21,10 @@ function App() {
     <ThemeProvider>
       <ModeToggle />
       <header>
+        <div className="border">
+          <img src={sun} className="w-1/4 animate-orbit" />
+          <img src={moon} className="w-1/6" />
+        </div>
         <div className=" p-5 border border-blue-500 m-10 flex lg:justify-around lg:items-center flex-col">
           <div className="text-center mb-8">
             <h1 className="text-5xl lg:text-7xl">T. Augustus Baker</h1>
@@ -181,20 +187,12 @@ function App() {
         <section className="border flex items-baseline">
           <span className="border">
             <a href="">
-              <img
-                src={github}
-                className="w-40 lg:w-1/2"
-                alt="github icon"
-              />
+              <img src={github} className="w-40 lg:w-1/2" alt="github icon" />
             </a>
           </span>
           <span className="border">
             <a href="">
-              <img
-                src={outlook}
-                className="w-40 lg:w-1/2"
-                alt="outlook icon"
-              />
+              <img src={outlook} className="w-40 lg:w-1/2" alt="outlook icon" />
             </a>
           </span>
           <span>
