@@ -12,7 +12,7 @@ export default {
           "40%": { transform: "translate(100%)" },
           "60%": { transform: "translate(250%)" },
           "80%": { transform: "translate(290%)" },
-          "100%": { transform: "translate(340%)" },
+          "100%": { transform: "translate(500%)" },
         },
       },
     },
