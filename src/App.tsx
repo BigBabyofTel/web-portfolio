@@ -11,6 +11,16 @@ import linkedin from "./assets/linkedin-l.svg";
 import discord from "./assets/discord-l.svg";
 import reddit from "./assets/reddit-l.svg";
 import avatar from "./assets/avatar.svg";
+import html from "@/assets/html-5.svg";
+import css from "@/assets/css-3.svg";
+import js from "@/assets/js.svg";
+import bootstrap from "@/assets/bootstrap.svg";
+import ts from "@/assets/typescript.svg";
+import react from "@/assets/react.svg";
+import redux from "@/assets/redux.svg";
+import tailwind from "@/assets/tailwind.svg";
+import bun from "@/assets/bun 1.svg";
+import vite from "@/assets/vite.svg";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { ModeToggle } from "./components/ModeToggle";
 
@@ -67,7 +77,7 @@ function App() {
                     <CardTitle>HTML</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={html} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -77,18 +87,17 @@ function App() {
                     <CardTitle>CSS</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={css} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
-
               <CarouselItem>
                 <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Bootstrap</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={bootstrap} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -109,7 +118,7 @@ function App() {
                     <CardTitle>JavaScript</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={js} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -119,7 +128,7 @@ function App() {
                     <CardTitle>TypeScript</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={ts} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -129,7 +138,7 @@ function App() {
                     <CardTitle>React</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={react} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -150,7 +159,7 @@ function App() {
                     <CardTitle>TailwindCSS</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={tailwind} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -160,7 +169,7 @@ function App() {
                     <CardTitle>Redux</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={redux} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -170,7 +179,17 @@ function App() {
                     <CardTitle>Bun</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img />
+                    <img src={bun} className="w-1/4 mx-auto" />
+                  </CardContent>
+                </Card>
+              </CarouselItem>
+              <CarouselItem>
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
+                  <CardHeader>
+                    <CardTitle>Vite</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <img src={vite} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -180,44 +199,40 @@ function App() {
       </div>
       <div className="w-full border flex flex-col basis-1/2">
         <h2 className="text-5xl p-5 flex justify-center">Contact</h2>
-        <section className="border flex items-center">
-          <span className="border">
-            <a href="">
-              <img src={github} className="w-1/2 lg:w-1/2" alt="github icon" />
+        <section className="flex items-center">
+          <span>
+            <a href="" className="flex justify-center">
+              <img src={github} className="w-1/2 lg:w-1/4" alt="github icon" />
             </a>
           </span>
-          <span className="border">
-            <a href="">
+          <span>
+            <a href="" className="flex justify-center">
               <img
                 src={outlook}
-                className="w-1/2 lg:w-1/2"
+                className="w-1/2 lg:w-1/4"
                 alt="outlook icon"
               />
             </a>
           </span>
           <span>
-            <a href="">
+            <a href="" className="flex justify-center">
               <img
                 src={linkedin}
-                className="w-1/2 lg:w-1/2"
+                className="w-1/2 lg:w-1/4"
                 alt="linkedin icon"
               />
             </a>
           </span>
           <span>
-            <a href="">
-              <img
-                src={reddit}
-                className="w-2/3 lg:w-1/2 border"
-                alt="reddit icon"
-              />
+            <a href="" className="flex justify-center">
+              <img src={reddit} className="w-1/2 lg:w-1/4" alt="reddit icon" />
             </a>
           </span>
           <span>
-            <a href="">
+            <a href="" className="flex justify-center">
               <img
                 src={discord}
-                className="w-3/4 lg:w-1/2 border"
+                className="w-3/4 lg:w-1/3"
                 alt="discord icon"
               />
             </a>
