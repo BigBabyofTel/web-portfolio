@@ -29,7 +29,7 @@ function App() {
           </section>
         </div>
       </header>
-      <div className="mx-auto m-10 p-10 text-center w-auto lg:w-1/2 flex justify-center flex-col border">
+      <div className="mx-auto m-10 p-10 text-center w-full lg:w-1/2 flex justify-center flex-col border">
         <h2 className="text-5xl lg:text-5xl p-5 m-5 border">About Me</h2>
         <p className="mb-5 flex leading-10">
           I’ve spent a year studying Front-End Web Development. Learning the
@@ -47,7 +47,7 @@ function App() {
           contribute to my work as a web developer.
         </p>
       </div>
-      <div className=" border flex flex-col m-10">
+      <div className="w-full border flex flex-col m-10">
         <h2 className="text-5xl p-5 m-10 flex justify-center">Skills</h2>
         <section className="flex flex-col text-center mx-auto">
           <Carousel
@@ -176,7 +176,7 @@ function App() {
           </Carousel>
         </section>
       </div>
-      <div className=" border flex flex-col m-10">
+      <div className="w-full border flex flex-col m-10">
         <h2 className="text-5xl p-5 flex justify-center">Contact</h2>
         <section className="border flex items-baseline">
           <span className="border">
