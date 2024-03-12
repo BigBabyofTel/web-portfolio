@@ -18,7 +18,7 @@ function App() {
   return (
     <ThemeProvider>
       <ModeToggle />
-      <header className="border-4 w-full">
+      <header className="border-4 w-screen">
         <div>
           <div className="text-center mb-8">
             <h1 className="text-5xl">T. Augustus Baker</h1>
@@ -47,11 +47,11 @@ function App() {
           contribute to my work as a web developer.
         </p>
       </div>
-      <div className="w-full border flex flex-col m-10">
-        <h2 className="text-5xl p-5 m-10 flex justify-center">Skills</h2>
-        <section className="flex flex-col text-center mx-auto">
+      <div className="w-full border flex flex-col">
+        <h2 className="text-5xl flex justify-center">Skills</h2>
+        <section className="w-full flex flex-col text-center mx-auto">
           <Carousel
-            className="p-5 m-5 h-60 border"
+            className="h-60 border"
             plugins={[
               Autoplay({
                 delay: 1000,
@@ -60,7 +60,7 @@ function App() {
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>HTML</CardTitle>
                   </CardHeader>
@@ -70,7 +70,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>CSS</CardTitle>
                   </CardHeader>
@@ -81,7 +81,7 @@ function App() {
               </CarouselItem>
 
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Bootstrap</CardTitle>
                   </CardHeader>
@@ -93,7 +93,7 @@ function App() {
             </CarouselContent>
           </Carousel>
           <Carousel
-            className="p-5 m-5 h-60"
+            className="h-60"
             plugins={[
               Autoplay({
                 delay: 1000,
@@ -102,7 +102,7 @@ function App() {
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>JavaScript</CardTitle>
                   </CardHeader>
@@ -112,7 +112,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>TypeScript</CardTitle>
                   </CardHeader>
@@ -122,7 +122,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>React</CardTitle>
                   </CardHeader>
@@ -134,7 +134,7 @@ function App() {
             </CarouselContent>
           </Carousel>
           <Carousel
-            className="p-5 m-5 h-60"
+            className="h-60"
             plugins={[
               Autoplay({
                 delay: 1000,
@@ -143,7 +143,7 @@ function App() {
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>TailwindCSS</CardTitle>
                   </CardHeader>
@@ -153,7 +153,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Redux</CardTitle>
                   </CardHeader>
@@ -163,7 +163,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto w-2/3 mx-auto">
+                <Card className="shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Bun</CardTitle>
                   </CardHeader>
@@ -176,7 +176,7 @@ function App() {
           </Carousel>
         </section>
       </div>
-      <div className="w-full border flex flex-col m-10">
+      <div className="w-full border flex flex-col">
         <h2 className="text-5xl p-5 flex justify-center">Contact</h2>
         <section className="border flex items-baseline">
           <span className="border">
