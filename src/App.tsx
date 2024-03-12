@@ -20,9 +20,11 @@ function App() {
       <ModeToggle />
       <header className="border-4 w-screen">
         <div>
-          <div className="text-center mb-8">
-            <h1 className="text-5xl">T. Augustus Baker</h1>
-            <h2 className="text-3xl lg:text-5xl">Aspiring Web Dev</h2>
+          <div className="text-center mb-8 dark:bg-black">
+            <h1 className="text-5xl dark:text-gray-400">T. Augustus Baker</h1>
+            <h2 className="text-3xl lg:text-5xl dark:text-gray-400">
+              Aspiring Web Dev
+            </h2>
           </div>
           <section className="">
             <img src={avatar} alt="reddit avatar" className="w-1/6 mx-auto" />
@@ -42,16 +44,16 @@ function App() {
           For almost a decade, I have been living in Cairo teaching in the
           British Primary School system. I have worked at 4 schools during my
           time and gained the skills of an effective teacher. Problem solving,
-          collaboration, and Communication are some of the critical skills that
+          collaboration, and communication are some of the critical skills that
           I have cultivated during my near decade as an Educator. These skills
           contribute to my work as a web developer.
         </p>
       </div>
       <div className="w-full border flex flex-col">
-        <h2 className="text-5xl flex justify-center">Skills</h2>
+        <h2 className="text-5xl flex justify-center mb-10">Skills</h2>
         <section className="w-full flex flex-col text-center mx-auto">
           <Carousel
-            className="h-60 border"
+            className="h-40"
             plugins={[
               Autoplay({
                 delay: 1000,
@@ -60,7 +62,7 @@ function App() {
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>HTML</CardTitle>
                   </CardHeader>
@@ -70,7 +72,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>CSS</CardTitle>
                   </CardHeader>
@@ -81,7 +83,7 @@ function App() {
               </CarouselItem>
 
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Bootstrap</CardTitle>
                   </CardHeader>
@@ -93,7 +95,7 @@ function App() {
             </CarouselContent>
           </Carousel>
           <Carousel
-            className="h-60"
+            className="h-40"
             plugins={[
               Autoplay({
                 delay: 1000,
@@ -102,7 +104,7 @@ function App() {
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>JavaScript</CardTitle>
                   </CardHeader>
@@ -112,7 +114,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>TypeScript</CardTitle>
                   </CardHeader>
@@ -122,7 +124,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>React</CardTitle>
                   </CardHeader>
@@ -134,7 +136,7 @@ function App() {
             </CarouselContent>
           </Carousel>
           <Carousel
-            className="h-60"
+            className="h-40"
             plugins={[
               Autoplay({
                 delay: 1000,
@@ -143,7 +145,7 @@ function App() {
           >
             <CarouselContent>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>TailwindCSS</CardTitle>
                   </CardHeader>
@@ -153,7 +155,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Redux</CardTitle>
                   </CardHeader>
@@ -163,7 +165,7 @@ function App() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="shadow-2xl h-auto mx-auto">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
                     <CardTitle>Bun</CardTitle>
                   </CardHeader>
@@ -176,24 +178,28 @@ function App() {
           </Carousel>
         </section>
       </div>
-      <div className="w-full border flex flex-col">
+      <div className="w-full border flex flex-col basis-1/2">
         <h2 className="text-5xl p-5 flex justify-center">Contact</h2>
-        <section className="border flex items-baseline">
+        <section className="border flex items-center">
           <span className="border">
             <a href="">
-              <img src={github} className="w-40 lg:w-1/2" alt="github icon" />
+              <img src={github} className="w-1/2 lg:w-1/2" alt="github icon" />
             </a>
           </span>
           <span className="border">
             <a href="">
-              <img src={outlook} className="w-40 lg:w-1/2" alt="outlook icon" />
+              <img
+                src={outlook}
+                className="w-1/2 lg:w-1/2"
+                alt="outlook icon"
+              />
             </a>
           </span>
           <span>
             <a href="">
               <img
                 src={linkedin}
-                className="w-40 lg:w-1/2"
+                className="w-1/2 lg:w-1/2"
                 alt="linkedin icon"
               />
             </a>
@@ -202,7 +208,7 @@ function App() {
             <a href="">
               <img
                 src={reddit}
-                className="w-40 lg:w-1/2 border"
+                className="w-2/3 lg:w-1/2 border"
                 alt="reddit icon"
               />
             </a>
@@ -211,7 +217,7 @@ function App() {
             <a href="">
               <img
                 src={discord}
-                className="w-40 lg:w-1/2 border"
+                className="w-3/4 lg:w-1/2 border"
                 alt="discord icon"
               />
             </a>
