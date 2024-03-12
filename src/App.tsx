@@ -66,7 +66,7 @@ function App() {
             className="h-40"
             plugins={[
               Autoplay({
-                delay: 1000,
+                delay: 500,
               }),
             ]}
           >
@@ -107,7 +107,7 @@ function App() {
             className="h-40"
             plugins={[
               Autoplay({
-                delay: 1000,
+                delay: 500,
               }),
             ]}
           >
@@ -148,7 +148,7 @@ function App() {
             className="h-40"
             plugins={[
               Autoplay({
-                delay: 1000,
+                delay: 500,
               }),
             ]}
           >
