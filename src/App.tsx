@@ -201,12 +201,18 @@ function App() {
         <h2 className="text-5xl p-5 flex justify-center">Contact</h2>
         <section className="flex items-center">
           <span>
-            <a href="" className="flex justify-center">
+            <a
+              href="https://github.com/BigBabyofTel"
+              className="flex justify-center"
+            >
               <img src={github} className="w-1/2 lg:w-1/4" alt="github icon" />
             </a>
           </span>
           <span>
-            <a href="" className="flex justify-center">
+            <a
+              href="mailto:augustus.tb@outlook.com"
+              className="flex justify-center"
+            >
               <img
                 src={outlook}
                 className="w-1/2 lg:w-1/4"
@@ -215,7 +221,10 @@ function App() {
             </a>
           </span>
           <span>
-            <a href="" className="flex justify-center">
+            <a
+              href="https://www.linkedin.com/in/taugustusb"
+              className="flex justify-center"
+            >
               <img
                 src={linkedin}
                 className="w-1/2 lg:w-1/4"
@@ -224,12 +233,18 @@ function App() {
             </a>
           </span>
           <span>
-            <a href="" className="flex justify-center">
+            <a
+              href="https://www.reddit.com/user/BigBabyofTel/"
+              className="flex justify-center"
+            >
               <img src={reddit} className="w-1/2 lg:w-1/4" alt="reddit icon" />
             </a>
           </span>
           <span>
-            <a href="" className="flex justify-center">
+            <a
+              href="https://discordapp.com/users/1089614219600732160"
+              className="flex justify-center"
+            >
               <img
                 src={discord}
                 className="w-3/4 lg:w-1/3"
