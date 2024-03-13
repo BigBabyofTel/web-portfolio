@@ -42,7 +42,7 @@ function App() {
         </div>
       </header>
       <div className="mx-auto m-10 p-10 text-center w-full lg:w-1/2 flex justify-center flex-col">
-        <h2 className="text-5xl lg:text-5xl p-5 m-5 border">About Me</h2>
+        <h2 className="text-5xl lg:text-5xl p-5 m-5">About Me</h2>
         <p className="mb-5 flex leading-10">
           I’ve spent a year studying Front-End Web Development. Learning the
           basics and applying them to understand core concepts, I hope to be
@@ -59,7 +59,7 @@ function App() {
           contribute to my work as a web developer.
         </p>
       </div>
-      <div className="w-full flex flex-col">
+      <div className="w-full flex flex-col my-5">
         <h2 className="text-5xl flex justify-center mb-10">Skills</h2>
         <section className="w-full flex flex-col text-center mx-auto">
           <Carousel
@@ -70,7 +70,7 @@ function App() {
               }),
             ]}
           >
-            <CarouselContent>
+            <CarouselContent className="m-3">
               <CarouselItem>
                 <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
@@ -111,7 +111,7 @@ function App() {
               }),
             ]}
           >
-            <CarouselContent>
+            <CarouselContent className="m-3">
               <CarouselItem>
                 <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
@@ -152,7 +152,7 @@ function App() {
               }),
             ]}
           >
-            <CarouselContent>
+            <CarouselContent className="m-3">
               <CarouselItem>
                 <Card className="w-3/4 shadow-2xl h-auto mx-auto">
                   <CardHeader>
@@ -197,7 +197,7 @@ function App() {
           </Carousel>
         </section>
       </div>
-      <div className="w-full border flex flex-col basis-1/2">
+      <div className="w-full flex flex-col basis-1/2">
         <h2 className="text-5xl p-5 flex justify-center">Contact</h2>
         <section className="flex items-center">
           <span>
