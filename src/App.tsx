@@ -10,7 +10,6 @@ import outlook from "./assets/outlook.svg";
 import linkedin from "./assets/linkedin-l.svg";
 import discord from "./assets/discord-l.svg";
 import reddit from "./assets/reddit-l.svg";
-import avatar from "./assets/avatar.svg";
 import html from "@/assets/html-5.svg";
 import css from "@/assets/css-3.svg";
 import js from "@/assets/js.svg";
@@ -23,25 +22,20 @@ import bun from "@/assets/bun 1.svg";
 import vite from "@/assets/vite.svg";
 import { ThemeProvider } from "./components/ThemeProvider";
 import { ModeToggle } from "./components/ModeToggle";
+import { ReactMatrixAnimation } from "react-matrix-animation";
 
 function App() {
   return (
     <ThemeProvider>
       <ModeToggle />
-      <header className="border-4 w-screen">
-        <div>
-          <div className="text-center mb-8 dark:bg-black">
-            <h1 className="text-5xl dark:text-gray-400">T. Augustus Baker</h1>
-            <h2 className="text-3xl lg:text-5xl dark:text-gray-400">
-              Aspiring Web Dev
-            </h2>
-          </div>
-          <section className="">
-            <img src={avatar} alt="reddit avatar" className="w-1/6 mx-auto" />
-          </section>
+      <ReactMatrixAnimation />
+      <header className="w-screen relative bottom-40 z-20">
+        <div className="text-center mb-8">
+          <h1 className="text-5xl text-white">T. Augustus Baker</h1>
+          <h2 className="text-3xl text-white">Aspiring Web Dev</h2>
         </div>
       </header>
-      <div className="mx-auto m-10 p-10 text-center w-full lg:w-1/2 flex justify-center flex-col">
+      <div className="mx-auto m-5 p-10 text-center w-full lg:w-1/2 flex justify-center flex-col relative bottom-28">
         <h2 className="text-5xl lg:text-5xl p-5 m-5">About Me</h2>
         <p className="mb-5 flex leading-10">
           I’ve spent a year studying Front-End Web Development. Learning the
