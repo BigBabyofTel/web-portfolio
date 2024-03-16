@@ -1,8 +1,8 @@
 export default function AboutMe() {
+  
 
     return (
-        <>
-        <div className="mx-auto m-5 p-10 text-center w-full lg:w-1/2 flex justify-center flex-col relative bottom-28 dark:text-white">
+        <div className="mx-auto m-5 p-10 text-center w-full lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col relative bottom-28 dark:text-white" id="aboutMe">
         <h2 className="text-5xl lg:text-5xl p-5 m-5">About Me</h2>
         <p className="mb-5 flex leading-10">
           I’ve spent a year studying Front-End Web Development. Learning the
@@ -20,6 +20,5 @@ export default function AboutMe() {
           contribute to my work as a web developer.
         </p>
       </div>
-        </>
     )
 } 

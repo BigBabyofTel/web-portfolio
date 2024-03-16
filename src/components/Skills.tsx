@@ -18,14 +18,13 @@ import vite from "@/assets/vite.svg";
 
 export default function Skills() {
   return (
-    <>
-      <div className="w-full flex flex-col my-5">
+      <div className="w-full flex flex-col" id="skills">
         <h2 className="text-5xl flex justify-center mb-10 dark:text-white">
           Skills
         </h2>
-        <section className="w-full flex flex-col text-center mx-auto">
+        <section className="w-full flex flex-col text-center mx-auto lg:w-1/3">
           <Carousel
-            className="h-40 m-3"
+            className="h-1/2 w-auto m-3 lg:flex lg:items-center"
             plugins={[
               Autoplay({
                 delay: 1500,
@@ -35,7 +34,7 @@ export default function Skills() {
           >
             <CarouselContent className="m-3">
               <CarouselItem>
-                <Card className="w-3/4 shadow-xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-xl mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>HTML</CardTitle>
                   </CardHeader>
@@ -45,7 +44,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>CSS</CardTitle>
                   </CardHeader>
@@ -55,7 +54,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Bootstrap</CardTitle>
                   </CardHeader>
@@ -67,7 +66,7 @@ export default function Skills() {
             </CarouselContent>
           </Carousel>
           <Carousel
-            className="h-40 m-3"
+            className="h-1/4 m-3 w-auto lg:flex lg:items-center"
             plugins={[
               Autoplay({
                 delay: 1500,
@@ -77,7 +76,7 @@ export default function Skills() {
           >
             <CarouselContent className="m-3">
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>JavaScript</CardTitle>
                   </CardHeader>
@@ -87,7 +86,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>TypeScript</CardTitle>
                   </CardHeader>
@@ -97,7 +96,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>React</CardTitle>
                   </CardHeader>
@@ -109,7 +108,7 @@ export default function Skills() {
             </CarouselContent>
           </Carousel>
           <Carousel
-            className="h-40 m-3"
+            className="h-1/4 m-3 lg:flex lg:items-center"
             plugins={[
               Autoplay({
                 delay: 1500,
@@ -119,7 +118,7 @@ export default function Skills() {
           >
             <CarouselContent className="m-3">
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>TailwindCSS</CardTitle>
                   </CardHeader>
@@ -129,7 +128,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Redux</CardTitle>
                   </CardHeader>
@@ -139,7 +138,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Bun</CardTitle>
                   </CardHeader>
@@ -149,12 +148,12 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 shadow-green-600 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Vite</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <img src={vite} className="w-1/4 mx-auto" />
+                  <img src={vite} className="w-1/4 mx-auto" />
                   </CardContent>
                 </Card>
               </CarouselItem>
@@ -162,6 +161,5 @@ export default function Skills() {
           </Carousel>
         </section>
       </div>
-    </>
   );
 }

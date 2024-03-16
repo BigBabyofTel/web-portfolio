@@ -23,7 +23,6 @@
     "postcss": "^8.4.35",
     "prettier": "^3.1.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
     "react-matrix-animation": "^0.0.11",
     "shadcn-ui": "latest",
@@ -33,7 +32,6 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
-    "@types/react-dom": "^18.2.19",
     "@typescript-eslint/eslint-plugin": "^7.0.2",
     "@typescript-eslint/parser": "^7.0.2",
     "@vitejs/plugin-react": "^4.2.1",
