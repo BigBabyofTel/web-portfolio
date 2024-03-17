@@ -1,7 +1,6 @@
 import {
   DropdownMenu,
   DropdownMenuContent,
-  DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
@@ -17,14 +16,10 @@ export default function Nav() {
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="center">
-          <DropdownMenuItem>
-            <a href="#aboutMe">About Me</a>
-          </DropdownMenuItem>
-          <DropdownMenuItem>Skills</DropdownMenuItem>
-          <DropdownMenuItem>Exhibits</DropdownMenuItem>
-          <DropdownMenuItem>
-            <a href="#contact">Contact</a>
-          </DropdownMenuItem>
+          <a href="#aboutMe">About Me</a>
+          <a href="#skills">Skills</a>
+          <a href="#exhibits">Exhibits</a>
+          <a href="#contact">Contact</a>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>
