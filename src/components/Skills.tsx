@@ -18,8 +18,8 @@ import vite from "@/assets/vite.svg";
 
 export default function Skills() {
   return (
-      <div className="w-full flex flex-col" id="skills">
-        <h2 className="text-5xl flex justify-center mb-10 dark:text-white">
+      <div className="w-full flex flex-col border lg:my-40" id="skills">
+        <h2 className="text-5xl flex justify-center p-10 mb-10 dark:text-white">
           Skills
         </h2>
         <section className="w-full flex flex-col text-center mx-auto lg:w-1/3">

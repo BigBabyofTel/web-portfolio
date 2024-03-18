@@ -5,10 +5,12 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { MenuIcon } from "lucide-react";
+import { ModeToggle } from "./ModeToggle";
 
 export default function Nav() {
   return (
-    <div className="">
+    <div className="flex justify-between">
+      <ModeToggle/>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
           <Button size="icon" variant="default">
@@ -16,10 +18,12 @@ export default function Nav() {
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="center">
-          <a href="#aboutMe">About Me</a>
-          <a href="#skills">Skills</a>
-          <a href="#exhibits">Exhibits</a>
-          <a href="#contact">Contact</a>
+          <div className="flex flex-col text-center">
+          <a href="#aboutMe" className="p-2">About Me</a>
+          <a href="#skills" className="p-2">Skills</a>
+          <a href="#exhibits" className="p-2">Exhibits</a>
+          <a href="#contact" className="p-2">Contact</a>
+          </div>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

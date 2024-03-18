@@ -6,17 +6,17 @@ import reddit from "@/assets/reddit-l.svg";
 
 export default function Contacts() {
   return (
-    <div className="w-full flex flex-col my-10" id="contact">
-      <h2 className="text-5xl p-5 flex justify-center dark:text-white">
+    <div className="w-full flex flex-col lg:my-40" id="contact">
+      <h2 className="text-5xl py-16 flex justify-center dark:text-white">
         Contact
       </h2>
-      <section className="flex items-center">
+      <section className="flex items-center py-10">
         <span>
           <a
             href="https://github.com/BigBabyofTel"
             className="flex justify-center"
           >
-            <img src={github} className="w-1/2 lg:w-1/4" alt="github icon" />
+            <img src={github} className="w-1/2 lg:w-1/6" alt="github icon" />
           </a>
         </span>
         <span>
@@ -24,7 +24,7 @@ export default function Contacts() {
             href="mailto:augustus.tb@outlook.com"
             className="flex justify-center"
           >
-            <img src={outlook} className="w-1/2 lg:w-1/4" alt="outlook icon" />
+            <img src={outlook} className="w-1/2 lg:w-1/6" alt="outlook icon" />
           </a>
         </span>
         <span>
@@ -34,7 +34,7 @@ export default function Contacts() {
           >
             <img
               src={linkedin}
-              className="w-1/2 lg:w-1/4"
+              className="w-1/2 lg:w-1/6"
               alt="linkedin icon"
             />
           </a>
@@ -44,7 +44,7 @@ export default function Contacts() {
             href="https://www.reddit.com/user/BigBabyofTel/"
             className="flex justify-center"
           >
-            <img src={reddit} className="w-1/2 lg:w-1/4" alt="reddit icon" />
+            <img src={reddit} className="w-1/2 lg:w-1/6" alt="reddit icon" />
           </a>
         </span>
         <span>
@@ -52,7 +52,7 @@ export default function Contacts() {
             href="https://discordapp.com/users/1089614219600732160"
             className="flex justify-center"
           >
-            <img src={discord} className="w-3/4 lg:w-1/3" alt="discord icon" />
+            <img src={discord} className="w-3/4 lg:w-1/6" alt="discord icon" />
           </a>
         </span>
       </section>
