@@ -6,7 +6,7 @@ import reddit from "@/assets/reddit-l.svg";
 
 export default function Contacts() {
   return (
-    <div className="w-full flex flex-col lg:my-30" id="contact">
+    <div className="w-full flex flex-col lg:my-30 rounded-3xl border-2 bg-purple-300" id="contact">
       <h2 className="text-5xl py-16 flex justify-center dark:text-white">
         Contact
       </h2>
