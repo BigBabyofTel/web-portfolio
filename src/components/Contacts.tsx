@@ -5,57 +5,60 @@ import discord from "@/assets/discord-l.svg";
 import reddit from "@/assets/reddit-l.svg";
 
 export default function Contacts() {
+  interface Contact {
+    id: number;
+    account: string;
+    url: string;
+    svgComponent: string;
+  }
+
+  const contacts: Contact[] = [
+    {
+      id: 0,
+      account: "GitHub",
+      url: "https://github.com/BigBabyofTel",
+      svgComponent: github,
+    },
+    {
+      id: 1,
+      account: "Outlook",
+      url: "mailto:augustus.tb@outlook.com",
+      svgComponent: outlook,
+    },
+    {
+      id: 3,
+      account: "LinkedIn",
+      url: "https://www.linkedin.com/in/taugustusb",
+      svgComponent: linkedin,
+    },
+    {
+      id: 4,
+      account: "Reddit",
+      url: "https://www.reddit.com/user/BigBabyofTel/",
+      svgComponent: reddit,
+    },
+    {
+      id: 5,
+      account: "Discord",
+      url: "https://discordapp.com/users/1089614219600732160",
+      svgComponent: discord,
+    },
+  ];
+
+  const displayContact = contacts.map((contact) => (
+    <section key={contact.id}>
+      <a href={contact.url}>
+        <img src={contact.svgComponent} className="w-1/2 mx-auto my-2" />
+      </a>
+    </section>
+  ));
+
   return (
-    <div className="w-full flex flex-col lg:my-30 rounded-3xl border-2 bg-purple-300" id="contact">
-      <h2 className="text-5xl py-16 flex justify-center dark:text-white">
+    <div className="w-full lg:my-30 rounded-3xl bg-blue-400" id="contact">
+      <h2 className="text-2xl py-5 flex justify-center dark:text-white">
         Contact
       </h2>
-      <section className="flex items-center py-10">
-        <span>
-          <a
-            href="https://github.com/BigBabyofTel"
-            className="flex justify-center"
-          >
-            <img src={github} className="w-1/2 lg:w-1/6" alt="github icon" />
-          </a>
-        </span>
-        <span>
-          <a
-            href="mailto:augustus.tb@outlook.com"
-            className="flex justify-center"
-          >
-            <img src={outlook} className="w-1/2 lg:w-1/6" alt="outlook icon" />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.linkedin.com/in/taugustusb"
-            className="flex justify-center"
-          >
-            <img
-              src={linkedin}
-              className="w-1/2 lg:w-1/6"
-              alt="linkedin icon"
-            />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://www.reddit.com/user/BigBabyofTel/"
-            className="flex justify-center"
-          >
-            <img src={reddit} className="w-1/2 lg:w-1/6" alt="reddit icon" />
-          </a>
-        </span>
-        <span>
-          <a
-            href="https://discordapp.com/users/1089614219600732160"
-            className="flex justify-center"
-          >
-            <img src={discord} className="w-3/4 lg:w-1/6" alt="discord icon" />
-          </a>
-        </span>
-      </section>
+      <div className="flex flex-row">{displayContact}</div>
     </div>
   );
 }
