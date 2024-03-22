@@ -18,11 +18,11 @@ import vite from "@/assets/vite.svg";
 
 export default function Skills() {
   return (
-      <div className="w-full flex flex-col border-2 rounded-3xl bg-cyan-600 lg:my-40" id="skills">
-        <h2 className="text-5xl flex justify-center p-10 mb-10 dark:text-white">
+      <div className="mx-auto p-5 my-2 text-center w-full rounded-3xl bg-blue-300 lg:w-1/2 flex justify-center flex-col lg:my-28 " id="skills">
+        <h2 className="text-4xl lg:text-5xl flex justify-center p-5 dark:text-white">
           Skills
         </h2>
-        <section className="w-full flex flex-col text-center mx-auto lg:w-1/3">
+        <section className="w-full flex flex-col text-center mx-auto lg:w-4/5">
           <Carousel
             className="h-1/2 w-auto m-3 lg:flex lg:items-center"
             plugins={[
