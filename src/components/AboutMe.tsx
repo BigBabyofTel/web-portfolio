@@ -2,7 +2,7 @@ export default function AboutMe() {
   
 
     return (
-        <div className="mx-auto p-5 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-28 shadow-xl shadow-[#bf907e] dark:shadow-[#9bcbd7]" id="aboutMe">
+        <div className="mx-auto p-5 my-20 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-28 shadow-xl shadow-[#bf907e] dark:shadow-[#9bcbd7]" id="aboutMe">
         <h2 className="text-4xl lg:text-5xl p-5 m-5 text-[#005a7d] dark:text-[#bf907e]">About Me</h2>
         <p className="mb-5 flex leading-10 text-[#005a7d] dark:text-[#bf907e]">
           I’ve spent a year studying Front-End Web Development. Learning the

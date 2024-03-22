@@ -41,7 +41,7 @@ export default function Contacts() {
   const displayContact = contacts.map((contact) => (
     <section key={contact.id}>
       <a href={contact.url}>
-        <img src={contact.svgComponent} className="w-1/2 mx-auto my-2" />
+        <img src={contact.svgComponent} className="w-1/2 mx-auto my-2 lg:w-1/4" />
       </a>
     </section>
   ));
