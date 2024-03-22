@@ -18,8 +18,8 @@ import vite from "@/assets/vite.svg";
 
 export default function Skills() {
   return (
-      <div className="mx-auto p-5 my-2 text-center w-full rounded-3xl bg-blue-300 lg:w-1/2 flex justify-center flex-col lg:my-28 " id="skills">
-        <h2 className="text-4xl lg:text-5xl flex justify-center p-5 dark:text-white">
+      <div className="mx-auto p-5 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] lg:w-1/2 flex justify-center flex-col lg:my-28 shadow-xl shadow-[#bf907e] dark:shadow-[#9bcbd7]" id="skills">
+        <h2 className="text-4xl lg:text-5xl flex justify-center p-5 text-[#005a7d] dark:text-[#bf907e]">
           Skills
         </h2>
         <section className="w-full flex flex-col text-center mx-auto lg:w-4/5">
@@ -34,7 +34,7 @@ export default function Skills() {
           >
             <CarouselContent className="m-3">
               <CarouselItem>
-                <Card className="w-3/4 shadow-xl mx-auto lg:w-1/2 dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-xl mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>HTML</CardTitle>
                   </CardHeader>
@@ -44,7 +44,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>CSS</CardTitle>
                   </CardHeader>
@@ -54,7 +54,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2  dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2  dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Bootstrap</CardTitle>
                   </CardHeader>
@@ -76,7 +76,7 @@ export default function Skills() {
           >
             <CarouselContent className="m-3">
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>JavaScript</CardTitle>
                   </CardHeader>
@@ -86,7 +86,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2  dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2  dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>TypeScript</CardTitle>
                   </CardHeader>
@@ -96,7 +96,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2  dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2  dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>React</CardTitle>
                   </CardHeader>
@@ -118,7 +118,7 @@ export default function Skills() {
           >
             <CarouselContent className="m-3">
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2  dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2  dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>TailwindCSS</CardTitle>
                   </CardHeader>
@@ -128,7 +128,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2  dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2  dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Redux</CardTitle>
                   </CardHeader>
@@ -138,7 +138,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Bun</CardTitle>
                   </CardHeader>
@@ -148,7 +148,7 @@ export default function Skills() {
                 </Card>
               </CarouselItem>
               <CarouselItem>
-                <Card className="w-3/4 shadow-2xl h-auto mx-auto lg:w-1/2 dark:shadow-white dark:shadow-inner">
+                <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#005a7d] text-[#9bcbd7] dark:text-[#bf907e] lg:w-1/2 dark:shadow-white dark:shadow-inner">
                   <CardHeader>
                     <CardTitle>Vite</CardTitle>
                   </CardHeader>

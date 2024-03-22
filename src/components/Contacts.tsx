@@ -41,14 +41,14 @@ export default function Contacts() {
   const displayContact = contacts.map((contact) => (
     <section key={contact.id}>
       <a href={contact.url}>
-        <img src={contact.svgComponent} className="w-1/3 mx-auto my-2" />
+        <img src={contact.svgComponent} className="w-1/2 mx-auto my-2" />
       </a>
     </section>
   ));
 
   return (
-    <div className="mx-auto p-5 my-2 text-center w-full rounded-3xl bg-blue-300 lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-10 " id="contact">
-      <h2 className="text-4xl py-5 flex justify-center dark:text-white">
+    <div className="mx-auto p-2 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] shadow-xl dark:shadow-[#9bcbd7] shadow-[#bf907e] lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-10 " id="contact">
+      <h2 className="text-4xl py-5 flex justify-center text-[#005a7d] dark:text-[#bf907e]">
         Contact
       </h2>
       <div className="flex flex-row">{displayContact}</div>
