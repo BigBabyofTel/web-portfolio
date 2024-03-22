@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 
 export default function Header() {
   return (
-    <header className="w-full h-[800px] rounded-3xl text-center bg-[#9BCBD7] dark:bg-[#005a7d] lg:flex lg:justify-around lg:items-center shadow-xl shadow-[#bf907e] dark:shadow-[#9bcbd7]">
+    <header className="w-full h-[800px] rounded-3xl text-center bg-[#9BCBD7] dark:bg-[#005a7d] lg:flex lg:justify-around lg:items-center shadow-md shadow-[#bf907e] dark:shadow-[#9bcbd7]">
       <img src="/sinai.jpg" alt="the sinai" className="w-full rounded-3xl lg:w-1/2" />
       <div className="flex flex-col p-10 my-3">
       <h1 className="text-5xl text-[#005a7d] dark:text-[#bf907e] lg:text-8xl">

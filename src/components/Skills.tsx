@@ -18,7 +18,7 @@ import vite from "@/assets/vite.svg";
 
 export default function Skills() {
   return (
-      <div className="mx-auto p-5 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] lg:w-1/2 flex justify-center flex-col lg:my-28 shadow-xl shadow-[#bf907e] dark:shadow-[#9bcbd7]" id="skills">
+      <div className="mx-auto p-5 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] lg:w-1/2 flex justify-center flex-col lg:my-28 shadow-md shadow-[#bf907e] dark:shadow-[#9bcbd7]" id="skills">
         <h2 className="text-4xl lg:text-5xl flex justify-center p-5 text-[#005a7d] dark:text-[#bf907e]">
           Skills
         </h2>

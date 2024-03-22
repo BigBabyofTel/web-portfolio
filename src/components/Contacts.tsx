@@ -47,7 +47,7 @@ export default function Contacts() {
   ));
 
   return (
-    <div className="mx-auto p-2 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] shadow-xl dark:shadow-[#9bcbd7] shadow-[#bf907e] lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-10 " id="contact">
+    <div className="mx-auto p-2 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] shadow-md dark:shadow-[#9bcbd7] shadow-[#bf907e] lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-10 " id="contact">
       <h2 className="text-4xl py-5 flex justify-center text-[#005a7d] dark:text-[#bf907e]">
         Contact
       </h2>
