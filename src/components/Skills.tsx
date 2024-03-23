@@ -19,7 +19,7 @@ import vite from "@/assets/vite.svg";
 export default function Skills() {
   return (
     <div
-      className="mx-auto p-5 my-8 text-center w-full rounded-3xl lg:w-1/2 flex justify-center flex-col lg:my-28 shadow-xl shadow-[#C38055] dark:shadow-inner dark:shadow-[#bf907e] dark:bg-[#571c2e] border-2 dark:border-[#571c2e] border-[#bf907e] "
+      className="mx-auto p-5 my-8 text-center w-full rounded-3xl lg:w-1/2 flex justify-center flex-col lg:my-28 shadow-xl shadow-[#C38055] dark:shadow-inner dark:shadow-[#bf907e]  border-2 dark:border-[#571c2e] border-[#bf907e] "
       id="skills"
     >
       <h2 className="text-4xl lg:text-5xl flex justify-center p-5 text-[#000] dark:text-[#eeb29b]">
@@ -57,7 +57,7 @@ export default function Skills() {
               </Card>
             </CarouselItem>
             <CarouselItem>
-              <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#cbf907e] text-[#000] dark:text-[#eeb29b] lg:w-1/2 dark:border-2  dark:shadow-[#571c2e] dark:bg-[#571c2e] y dark:shadow-inner">
+              <Card className="w-3/4 shadow-2xl h-auto mx-auto bg-[#bf907e] text-[#000] dark:text-[#eeb29b] lg:w-1/2 dark:border-2  dark:shadow-[#571c2e] dark:bg-[#571c2e] y dark:shadow-inner">
                 <CardHeader>
                   <CardTitle>Bootstrap</CardTitle>
                 </CardHeader>
