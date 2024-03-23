@@ -47,8 +47,8 @@ export default function Contacts() {
   ));
 
   return (
-    <div className="mx-auto p-2 my-8 text-center w-full rounded-3xl bg-[#9bcbd7] dark:bg-[#005a7d] shadow-md dark:shadow-[#9bcbd7] shadow-[#bf907e] lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-10 " id="contact">
-      <h2 className="text-4xl py-5 flex justify-center text-[#005a7d] dark:text-[#bf907e]">
+    <div className="mx-auto p-2 my-8 text-center w-full rounded-3xl lg:w-1/2 lg:relative lg:bottom-1/4 flex justify-center flex-col lg:my-10 shadow-xl shadow-[#C38055] dark:shadow-inner dark:shadow-[#bf907e] border-2 dark:border-[#571c2e] dark:bg-[#571c2e] border-[#bf907e]" id="contact">
+      <h2 className="text-4xl py-5 flex justify-center text-[#571c2e] dark:text-[#eeb29b]">
         Contact
       </h2>
       <div className="flex flex-row">{displayContact}</div>

@@ -2,19 +2,19 @@ import { ModeToggle } from "./ModeToggle";
 
 export default function Nav() {
   return (
-    <div className="flex justify-between items-center text-center p-2 mt-1 mb-4 shadow-md shadow-[#0022BF] bg-[#C38055] dark:bg-[#571C2E] rounded-3xl">
+    <div className="flex justify-between items-center text-center p-2 mt-1 mb-4 shadow-md bg-[#bf907e] dark:bg-[#571c2e] rounded-3xl">
       <ModeToggle />
       <div className="mr-5">
-        <a href="#aboutMe" className="p-2 text-[#571C2E] dark:text-[#bf907e]">
+        <a href="#aboutMe" className="p-2 text-[#000] dark:text-[#eeb29b]">
           <strong>About Me</strong>
         </a>
-        <a href="#skills" className="p-2 text-[#571C2E] dark:text-[#bf907e]">
+        <a href="#skills" className="p-2 text-[#000] dark:text-[#eeb29b]">
           <strong>Skills</strong>
         </a>
-        <a href="#exhibits" className="p-2 text-[#571C2E] dark:text-[#bf907e]">
+        <a href="#exhibits" className="p-2 text-[#000] dark:text-[#eeb29b]">
           <strong>Exhibits</strong>
         </a>
-        <a href="#contact" className="p-2 text-[#571C2E] dark:text-[#bf907e]">
+        <a href="#contact" className="p-2 text-[#000] dark:text-[#eeb29b]">
           <strong>Contact</strong>
         </a>
       </div>
