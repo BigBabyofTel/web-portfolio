@@ -5,6 +5,9 @@ export default {
 
   theme: {
     extend: {
+      fontFamily: {
+        grenzegotisch: ["grenze gotisch", "serif"],
+      },
     },
     plugins: [],
   },
